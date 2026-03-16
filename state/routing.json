@@ -88,14 +88,6 @@
     "vsRalph": "Ralph는 동일 명령 반복, 스마트루프는 실패 유형별 최소 지점에서 재시작",
     "tokenSaving": "루프 3회 기준 전체재실행 대비 최대 80% 절감"
   },
-  "verificationLoop": {
-    "trigger": "sim FAIL OR Check FAIL",
-    "maxIterations": 3,
-    "flow": "역추적 재실행 → 수정 → sim → Check",
-    "onMaxReached": "사용자 보고 + 승인 대기",
-    "outputFormat": "[루프 N/3] {실패원인} → 재역추적",
-    "vsRalph": "Ralph는 동일 명령 반복, 루프는 매 사이클마다 역추적으로 근본원인 재확인"
-  },
   "triggers": {
     "context7": [
       "/최신",
